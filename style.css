@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+nav{
+    width: 30%;
+    height: auto;
+    display:inline-block;
+}
+.topNav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style: none;
+    margin: 20px 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    width: 40%;
+    display:flex;
+    justify-content: center;
+}
+.dribble{
+    text-decoration: none;
+    margin: 10px 0;
+    font-family: 'Cedarville Cursive', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+}
+.login{
+    width: 30%;
+    margin: 20px 0;
+}
+.loginB,.signup,.creatives{
+    padding: 10px 20px;
+    margin-left: 40px;
+    font-weight:600;
+    font-size: 15px;
+}
+.loginB{
+    margin-left: 25%;
+    border:0;
+    background-color: white;
+}
+.signup{
+    border:0;
+    background-color: #C7C7C7;
+    border-radius: 7px;
+
+}
+.signup:hover{
+    background-color: #d3d3d3;
+}
+.creatives{
+    background-color: black;
+    color:white;
+    border-radius: 7px;
+    border: 0;
+}
+.creatives:hover{
+    background-color: #B0B0B0;
+}
+.blog{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar{
+    width: 20%;
+    display: inline-flex;
+    position: absolute;
+    top: 20%;
+    right: 10px;
+    flex-direction:column;
+    align-items:end;
+}
+.blog1{
+display: inline-flex;
+width: 10%;
+flex-direction: row;
+justify-content:space-between;
+}
+.pp{
+    width: 60px;
+    border-radius: 50%;
+}
+.post{
+    display: inline-block;
+    width: 20%;
+    object-fit: contain;
+    margin-top: 20px;
+}
